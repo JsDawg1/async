@@ -1,0 +1,23 @@
+Task 1: Basic Fetch
+Write an async function that:
+
+Fetches data from https://jsonplaceholder.typicode.com/users/1.
+Logs the response data to the console.
+Task 2: Using Normal Function
+Rewrite the async function from Task 1 using a regular function syntax instead of an arrow function.
+
+Task 3: Simulating Delays
+Write an async function that:
+
+Simulates a delay of 2 seconds using setTimeout wrapped in a Promise.
+After the delay, logs "Task completed after 2 seconds."
+Task 4: Fetch Multiple APIs
+Write an async function that:
+
+Fetches data from two different APIs at the same time using Promise.all().
+Log both responses to the console.
+Task 5: Async Error Handling
+Write an async function that:
+
+Tries to fetch data from an invalid API endpoint (e.g., https://invalid-api.com/data).
+Use try...catch to handle the error and log a custom error message.
